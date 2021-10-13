@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "SampleAnalyzer": {
+      "commandName": "Project"
+    }
+  }
+}

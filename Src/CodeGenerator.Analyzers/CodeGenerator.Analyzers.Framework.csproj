@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<!--<Nullable>enable</Nullable>-->
+	<LangVersion>8.0</LangVersion> 
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+	<IncludeBuildOutput>false</IncludeBuildOutput>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>	  
+
+    <!-- Avoid ID conflicts with the package project. -->
+    <PackageId>CodeGenerator.Analyzers.Framework</PackageId>
+    <Authors>htrlq</Authors>
+    <PackageProjectUrl>https://github.com/htrlq/CodeGenerator.Analyzers.Framework</PackageProjectUrl>
+    <Nullable>enable</Nullable>
+	<!--<GeneratePackageOnBuild>false</GeneratePackageOnBuild>-->  
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.8.0" PrivateAssets="all" />
+	<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
