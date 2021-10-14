@@ -3,6 +3,8 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Diagnostics;
 using System.Collections.Generic;
+using TAttributeListSyntax = CodeGenerator.Analyzers.Framework.Project.Syntax.AttributeListSyntax;
+using SAttributeListSyntax = Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax;
 using System.Linq;
 
 namespace CodeGenerator.Analyzers.Framework.Project
@@ -16,25 +18,27 @@ namespace CodeGenerator.Analyzers.Framework.Project
             var syntaxTrees = context.Compilation.SyntaxTrees;
 
             var attributes = GetAttributeLists(syntaxTrees);
+            var tAttributes = attributes.Select(_syntax => new TAttributeListSyntax(_syntax, context.Compilation)).ToList();
+
             var classes = GetClassDeclarationSyntaxs(syntaxTrees);
 
             if (attributes.Any() && classes.Any())
             {
-                projectContext = new ProjectContext(attributes.ToList(), classes.ToList());
+                projectContext = new ProjectContext(tAttributes, classes.ToList());
                 return true;
             }
 
             return false;
         }
 
-        private static IEnumerable<AttributeListSyntax> GetAttributeLists(IEnumerable<SyntaxTree> syntaxTrees)
+        private static IEnumerable<SAttributeListSyntax> GetAttributeLists(IEnumerable<SyntaxTree> syntaxTrees)
         {
             foreach(var tree in syntaxTrees)
             {
                 if (tree.TryGetRoot(out SyntaxNode? node) && node is CompilationUnitSyntax compilationUnit)
                 {
-                    if (compilationUnit.DescendantNodes().OfType<AttributeListSyntax>().Any())
-                        yield return node.DescendantNodes().OfType<AttributeListSyntax>().FirstOrDefault();
+                    if (compilationUnit.DescendantNodes().OfType<SAttributeListSyntax>().Any())
+                        yield return node.DescendantNodes().OfType<SAttributeListSyntax>().FirstOrDefault();
                 }
             }
         }
