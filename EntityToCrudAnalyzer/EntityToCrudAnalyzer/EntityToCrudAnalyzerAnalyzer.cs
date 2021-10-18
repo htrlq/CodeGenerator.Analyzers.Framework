@@ -41,7 +41,7 @@ namespace EntityToCrudAnalyzer
         public override void Initialize(AnalysisContext context)
         {
             //var s = Debugger.IsAttached;
-            Debugger.Launch();
+            //Debugger.Launch();
             Debug.WriteLine("Analyzer Initialize");
             context.ConfigureGeneratedCodeAnalysis(GeneratedCodeAnalysisFlags.None);
             context.EnableConcurrentExecution();
