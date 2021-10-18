@@ -180,13 +180,13 @@ namespace EntityToCrudAnalyzer
 
                             if (config.IsBatch)
                             {
-                                classDeclaration.AddBaseListTypes(
+                                classDeclaration = classDeclaration.AddBaseListTypes(
                                     SyntaxFactory.SimpleBaseType(SyntaxFactory.ParseTypeName($"IEntityBatchRespository<{@class.Name},{genericType}>"))
                                 );
                             }
                             else
                             {
-                                classDeclaration.AddBaseListTypes(
+                                classDeclaration = classDeclaration.AddBaseListTypes(
                                     SyntaxFactory.SimpleBaseType(SyntaxFactory.ParseTypeName($"IEntityRespository<{@class.Name},{genericType}>"))
                                 );
                             }

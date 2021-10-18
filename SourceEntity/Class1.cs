@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace SourceEntity
 {
-    public class Class1 : IEntity<KeyEntity>
+    public class Class : IEntity<KeyEntity>
     {
         public KeyEntity Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public DateTime CreateTime { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -16,39 +16,39 @@ namespace SourceEntity
 
     }
 
-    public class ClassR : IEntityRespository<Class1, KeyEntity>
+    public class Classx : IEntityRespository<Class, KeyEntity>
     {
-        public void Add(Class1 entity)
+        public void Add(Class entity)
         {
             throw new NotImplementedException();
         }
 
-        public void AddRange(IEnumerable<Class1> entities)
+        public void AddRange(IEnumerable<Class> entities)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteRange(IEnumerable<Class1> entities)
+        public void DeleteRange(IEnumerable<Class> entities)
         {
             throw new NotImplementedException();
         }
 
-        public void Delte(Class1 entity)
+        public void Delte(Class entity)
         {
             throw new NotImplementedException();
         }
 
-        public Class1 GetById(KeyEntity id)
+        public Class GetById(KeyEntity id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Class1 entity)
+        public void Update(Class entity)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateRange(IEnumerable<Class1> entities)
+        public void UpdateRange(IEnumerable<Class> entities)
         {
             throw new NotImplementedException();
         }
