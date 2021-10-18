@@ -140,6 +140,11 @@ namespace Microsoft.CodeAnalysis
             return node.Modifiers.Any(_modifier => _modifier.ValueText == token.ValueText);
         }
 
+        public static bool IsBaseTypes(this ClassDeclarationSyntax node)
+        {
+            return node.DescendantNodes().OfType<BaseListSyntax>().Any();
+        }
+
 #if DEBUG
         public static void SaveFile(this ClassDeclarationSyntax node)
         {

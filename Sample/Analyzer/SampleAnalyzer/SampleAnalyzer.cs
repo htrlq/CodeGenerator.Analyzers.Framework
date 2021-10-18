@@ -25,8 +25,8 @@ namespace SampleAnalyzer
         {
             Debugger.Launch();
 
-            //context.ConfigureGeneratedCodeAnalysis(GeneratedCodeAnalysisFlags.None);
-            //context.EnableConcurrentExecution();
+            context.ConfigureGeneratedCodeAnalysis(GeneratedCodeAnalysisFlags.None);
+            context.EnableConcurrentExecution();
 
             //context.RegisterSyntaxNodeAction(AnalyzerSyntaxNode, SyntaxKind.CompilationUnit);
             context.RegisterCompilationAction(CompilationAnalysisContext);
@@ -35,6 +35,12 @@ namespace SampleAnalyzer
         private static void CompilationAnalysisContext(CompilationAnalysisContext context)
         {
             Debugger.Log(0, "title", "message");
+
+            foreach(var analyzerFile in context.Options.AdditionalFiles)
+            {
+                var source = analyzerFile.GetText();
+            }
+
             if (ProjectContextFactory.TryGetContext(context, out ProjectContext projectContext))
             {
                 if (projectContext.CompilationUnit.Count > 0)

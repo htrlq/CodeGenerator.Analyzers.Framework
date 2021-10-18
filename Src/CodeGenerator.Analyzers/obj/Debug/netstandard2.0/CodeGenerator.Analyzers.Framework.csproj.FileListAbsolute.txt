@@ -7,13 +7,12 @@ C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\CodeGenerator.Analyzers\C
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\CodeGenerator.Analyzers\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.csproj.CoreCompileInputs.cache
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\CodeGenerator.Analyzers\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.dll
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\CodeGenerator.Analyzers\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.pdb
-C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.deps.json
-C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.dll
-C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.pdb
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.AssemblyInfoInputs.cache
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.AssemblyInfo.cs
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.csproj.CoreCompileInputs.cache
+C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.deps.json
+C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.dll
+C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.pdb
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.dll
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.pdb
-C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Src\CodeGenerator.Analyzers\obj\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.csprojAssemblyReference.cache

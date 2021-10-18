@@ -20,7 +20,7 @@ namespace CodeGenerator.Analyzers.Framework.Project
             var attributes = GetAttributeLists(syntaxTrees);
             var tAttributes = attributes.Select(_syntax => new TAttributeListSyntax(_syntax, context.Compilation)).ToList();
 
-            var classes = GetClassDeclarationSyntaxs(syntaxTrees);
+            var classes = GetClassDeclarationSyntaxs(syntaxTrees, context.Compilation);
 
             if (attributes.Any() && classes.Any())
             {
@@ -43,13 +43,13 @@ namespace CodeGenerator.Analyzers.Framework.Project
             }
         }
 
-        private static IEnumerable<UnitSyntax> GetClassDeclarationSyntaxs(IEnumerable<SyntaxTree> syntaxTrees)
+        private static IEnumerable<UnitSyntax> GetClassDeclarationSyntaxs(IEnumerable<SyntaxTree> syntaxTrees, Compilation compilation)
         {
             foreach (var tree in syntaxTrees)
             {
                 if (tree.TryGetRoot(out SyntaxNode? node) && node is CompilationUnitSyntax compilationUnit)
                 {
-                    yield return new UnitSyntax(compilationUnit);
+                    yield return new UnitSyntax(compilationUnit, compilation);
                 }
             }
         }

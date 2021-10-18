@@ -11,7 +11,7 @@ namespace CodeGenerator.Analyzers.Framework.Project.Syntax
     {
         private CompilationUnitSyntax _compilationUnitSyntax;
 
-        public UnitSyntax(CompilationUnitSyntax compilationUnitSyntax)
+        public UnitSyntax(CompilationUnitSyntax compilationUnitSyntax, Compilation compilation)
         {
             _compilationUnitSyntax = compilationUnitSyntax;
 
@@ -30,7 +30,7 @@ namespace CodeGenerator.Analyzers.Framework.Project.Syntax
 
                 Usings = usings;
 
-                Classes = @namespace.DescendantNodes().OfType<ClassDeclarationSyntax>().Select(_syntax => new ClassSyntax(_syntax)).ToList();
+                Classes = @namespace.DescendantNodes().OfType<ClassDeclarationSyntax>().Select(_syntax => new ClassSyntax(_syntax, compilation)).ToList();
             }
         }
 

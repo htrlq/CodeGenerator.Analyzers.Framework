@@ -15,7 +15,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="XMLFile1.xml" />
+    <None Remove="XMLFile2.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Analyzer\SampleAnalyzer\SampleAnalyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <AdditionalFiles Include="*.xml" />
   </ItemGroup>
 
 </Project>
