@@ -16,41 +16,4 @@ namespace SourceEntity
 
     }
 
-    public class Classx : IEntityRespository<Class, KeyEntity>
-    {
-        public void Add(Class entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddRange(IEnumerable<Class> entities)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteRange(IEnumerable<Class> entities)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delte(Class entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Class GetById(KeyEntity id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Class entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateRange(IEnumerable<Class> entities)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31313.79
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerator.Analyzers.Framework", "Src\CodeGenerator.Analyzers\CodeGenerator.Analyzers.Framework.csproj", "{B439F270-17FE-432C-932F-1B36E6588129}"
 EndProject
@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleAnalyzer", "Sample\An
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{75F61169-55A5-4386-BDB0-08F5EC42E067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityToCrudAnalyzer", "EntityToCrudAnalyzer\EntityToCrudAnalyzer\EntityToCrudAnalyzer.csproj", "{F2C83246-B5A9-4EA7-88B5-C931DAADAAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityToCrudAnalyzer", "EntityToCrudAnalyzer\EntityToCrudAnalyzer\EntityToCrudAnalyzer.csproj", "{F2C83246-B5A9-4EA7-88B5-C931DAADAAE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity.Abstact", "Entity.Abstact\Entity.Abstact.csproj", "{8FCA0B89-224B-409A-BDD2-24E49E557375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity.Abstact", "Entity.Abstact\Entity.Abstact.csproj", "{8FCA0B89-224B-409A-BDD2-24E49E557375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceEntity", "SourceEntity\SourceEntity.csproj", "{2B66A2A5-279A-4CE4-AD63-90530366110C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceEntity", "SourceEntity\SourceEntity.csproj", "{2B66A2A5-279A-4CE4-AD63-90530366110C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityToCode", "EntityToCode", "{5130D5B3-0489-42DE-84A7-AB4D3E4E1983}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B439F270-17FE-432C-932F-1B36E6588129} = {75F61169-55A5-4386-BDB0-08F5EC42E067}
+		{F2C83246-B5A9-4EA7-88B5-C931DAADAAE3} = {5130D5B3-0489-42DE-84A7-AB4D3E4E1983}
+		{8FCA0B89-224B-409A-BDD2-24E49E557375} = {5130D5B3-0489-42DE-84A7-AB4D3E4E1983}
+		{2B66A2A5-279A-4CE4-AD63-90530366110C} = {5130D5B3-0489-42DE-84A7-AB4D3E4E1983}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBFA697A-AF96-4F58-B3B1-C932A6C194C9}

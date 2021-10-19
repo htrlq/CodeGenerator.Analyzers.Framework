@@ -7,6 +7,7 @@
 	  <IncludeBuildOutput>false</IncludeBuildOutput>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
