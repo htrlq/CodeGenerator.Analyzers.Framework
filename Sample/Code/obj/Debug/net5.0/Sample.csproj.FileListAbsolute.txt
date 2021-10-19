@@ -28,3 +28,4 @@ C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Code\obj\Debug\net
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Code\obj\Debug\net5.0\ref\Sample.dll
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Code\obj\Debug\net5.0\Sample.pdb
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Code\obj\Debug\net5.0\Sample.genruntimeconfig.cache
+C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Code\obj\Debug\net5.0\Sample.csproj.AssemblyReference.cache

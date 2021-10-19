@@ -16,7 +16,6 @@ C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAna
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\bin\Debug\netstandard2.0\SampleAnalyzer.pdb
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.dll
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\bin\Debug\netstandard2.0\CodeGenerator.Analyzers.Framework.pdb
-C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.csprojAssemblyReference.cache
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.AssemblyInfoInputs.cache
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.AssemblyInfo.cs
@@ -24,3 +23,4 @@ C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAna
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.csproj.CopyComplete
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.dll
 C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.pdb
+C:\Users\hetairan\source\repos\CodeGenerator.Analyzers\Sample\Analyzer\SampleAnalyzer\obj\Debug\netstandard2.0\SampleAnalyzer.csproj.AssemblyReference.cache
